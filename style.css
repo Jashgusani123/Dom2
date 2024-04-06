@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    gap: 10px;
+}
+div {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    background-color: rgb(248, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#i3{
+    background-image: url(https://www.freepnglogos.com/uploads/triangle-png/red-triangle-transparent-png-9.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+div img{
+    height: 100px;
+    width: 100px;
+}
+#i1 , #i2{
+    padding: 1px;
+    width: 100px;
+    font-size: larger;
+    font-weight: 500;
+}
